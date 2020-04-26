@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="browserName" value="${browser.name}"></parameter>
+<parameter name="browserVersion" value="${browser.version}"></parameter>
+<parameter name="applicationName" value="${application.name}"></parameter>
+<parameter name="environmentName" value="${environment.name}"></parameter>
+<test name="Test">
+<classes>
+<class name="gitDriver.driveTests.gitDriverTest"/>
+</classes>
+</test> <!-- Test -->
+</suite> <!-- Suite --> 
+
